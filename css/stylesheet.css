@@ -1,0 +1,147 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #283244;
+}
+
+.agwdev-navbar {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agwdev-header-logo {
+    padding: 2.5px;
+    margin-right: 10px;
+    margin-left: auto;
+    width: 65px;
+    height: auto;
+}
+
+.agwdev-nav-menu a {
+    padding: 10px;
+    color: rgb(66, 77, 82);
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: auto;
+    font-weight: 700px;
+}
+
+.agwdev-nav-menu a:hover {
+    color: rgb(99, 137, 218);
+    text-decoration: none;
+}
+
+.agwdev-headline {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.agwdev-headline-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.agwdev-headline-link:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.agwdev-large-width-img {
+    display: flex;
+    border: #283244;
+    border-radius: 6px;
+    background-color: aliceblue;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.agwdev-text-b-center {
+    text-align: center;
+    font-weight: bold;
+}
+
+main {
+    display: auto;
+}
+
+.agwdev-title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.agwdev-dark-light-button {
+    margin-right: 10px;
+    margin-left: auto;
+    background-color: #4c77af;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+.agwdev-legal-content {
+    background-color: aliceblue;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.agwdev-legal-text {
+    color: royalblue;
+    letter-spacing: 0.025em;
+}
+
+.agwdev-legal-text-link {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.agwdev-legal-text-link:hover {
+    color: rgb(27, 167, 155);
+    text-decoration: none;
+}
+
+.agwdev-author {
+    padding: auto;
+    font-size: 12px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.agwdev-author-a {
+    color: grey;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700px;
+}
+
+.agwdev-author-a:hover {
+    color: rgb(35, 182, 35);
+    text-decoration: none;
+}
