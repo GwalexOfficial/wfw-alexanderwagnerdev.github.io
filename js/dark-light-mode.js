@@ -1,5 +1,5 @@
-const btn = document.querySelector(".awdev-bl-toggle");
-const theme = document.querySelector("#awdev-theme-mode");
+const btn = document.querySelector(".agwdev-bl-toggle");
+const theme = document.querySelector("#agwdev-theme-mode");
 
 const darkmode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 

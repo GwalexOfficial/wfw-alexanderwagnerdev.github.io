@@ -1,55 +1,91 @@
-/*
-Theme: AlexanderWagnerDev
-Author: AlexanderWagnerDev.at
-Version: 1.0
-License: 
-Style: Dark
-*/
-
-*/
-
 * {
     scrollbar-width: thin;
     scrollbar-color: #283244;
 }
 
-body {
-    background-color: #283244;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.awdev-navbar {
+.agwdev-navbar {
+    background-color: rgb(48, 74, 95);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.awdev-navbar a {
-    color: green;
+.agwdev-header-logo {
+    padding: 2.5px;
+    margin-right: 10px;
+    margin-left: auto;
+    width: 65px;
+    height: auto;
+}
+
+.agwdev-nav-menu a {
+    padding: 10px;
+    color: rgb(148, 171, 182);
     text-decoration: none;
     margin-left: 16px;
+    margin-right: auto;
     font-weight: 700px;
 }
 
-.awdev-navebar a:hover {
-    color: darkkhaki;
+.agwdev-nav-menu a:hover {
+    color: rgb(99, 137, 218);
     text-decoration: none;
 }
 
-.awdev-headline-link {
-    color: azure;
+.agwdev-headline {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.agwdev-headline-link {
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-.awdev-headline-link:hover {
+.agwdev-headline-link:hover {
     color: grey;
     text-decoration: none;
 }
 
-.awdev-dark-light-button {
+.agwdev-large-width-img {
+    display: flex;
+    border: #283244;
+    border-radius: 6px;
+    background-color: aliceblue;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #313131;
+    color: rgb(216, 216, 216);
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.agwdev-text-b-center {
+    text-align: center;
+    font-weight: bold;
+}
+
+main {
+    display: auto;
+}
+
+.agwdev-title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.agwdev-dark-light-button {
     margin-right: 10px;
     margin-left: auto;
     background-color: #4c77af;
@@ -64,67 +100,48 @@ body {
     font-size: 16px;
 }
 
-main {
-    display: auto;
+footer {
+    background-color: rgb(2, 49, 90);
 }
 
-.awdev-title {
-    color: azure;
-    width: auto;
+.agwdev-legal-content {
+    background-color: rgb(2, 49, 90);
+    margin-top: 30px;
     text-align: center;
-}
-
-.awdev-aufbau {
-    color: azure;
-    width: auto;
-    text-align: center;
-}
-
-.awdev-legal-content {
-    text-align: center;
-    padding: 6px;
     font-size: 14px;
 }
 
-.awdev-legal-text {
-    margin-right: 16px;
-    margin-left: 16px;
+.agwdev-legal-text {
     color: royalblue;
-    text-align: center;
+    letter-spacing: 0.025em;
 }
 
-.awdev-legal-text-link {
-    margin-left: 0px;
+.agwdev-legal-text-link {
     color: royalblue;
     text-decoration: none;
 }
 
-.awdev-legal-text-link:hover {
-    color: goldenrod;
+.agwdev-legal-text-link:hover {
+    color: rgb(27, 152, 190);
     text-decoration: none;
 }
 
-.awdev-author {
-    padding: 6px;
+.agwdev-author {
+    padding: auto;
     font-size: 12px;
     margin-right: 16px;
     margin-left: 16px;
 }
 
-.awdev-author-a {
+.agwdev-author-a {
     color: grey;
     text-decoration: none;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700px;
 }
 
-.awdev-author-a:hover {
-    color: yellow;
+.agwdev-author-a:hover {
+    color: rgb(35, 182, 35);
     text-decoration: none;
-}
-
-.awdev-version {
-    font-size: 12px;
-    text-align: right;
-    color: coral;
 }
